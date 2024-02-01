@@ -14,6 +14,60 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-ph30891_CRO101_Assignment-ph30891_CRO101_AssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ph30891_CRO101_Assignment-ph30891_CRO101_AssignmentTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		1707382A0F0640C787A01785 /* app_icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3A2AB1C5204462A859B7158 /* app_icons.ttf */; };
+		A101CCE7413F48E588B78262 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45C388B03D6B4391BBDDBAB4 /* Poppins-Black.ttf */; };
+		0D78BEB4B23C4CA7BBCA3713 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7629C9BAF45148C88E3D6052 /* Poppins-Bold.ttf */; };
+		DB4036873E9B43A09E68B5EC /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A35F392F11943CA9D4C9A7C /* Poppins-ExtraBold.ttf */; };
+		A7C18E3F983D42C5AF079E0C /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14979FEA54D04AC9B550AD77 /* Poppins-ExtraLight.ttf */; };
+		090E7A348BC3495691C02D96 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDA94741C9B547278071E9B7 /* Poppins-Light.ttf */; };
+		FD47016D217F4445A7F312CA /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BCC7BA88BC947ED99DB0ACD /* Poppins-Medium.ttf */; };
+		CF2342963C984E6FB723032C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC6DD240458B44F498F37D9A /* Poppins-Regular.ttf */; };
+		6771CBA61C114FE39067F232 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90541A3284F142EAB2A10E22 /* Poppins-SemiBold.ttf */; };
+		FB8001D9F00E45FAA75361D7 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D57201D9BC94CC292A8A9F1 /* Poppins-Thin.ttf */; };
+		6CE30CC6C4DE4ECFAA869426 /* champagne_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A0FAA6F9EEA4AB1BD9E79FD /* champagne_portrait.jpg */; };
+		5B418F44BB7C4284A8E32F5A /* prosecco_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F0F5A5C6A1D4A09B3559E11 /* prosecco_portrait.jpg */; };
+		9B6591A393224B2C86774E08 /* champagne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02564F3BFEDD406BB01FAEC7 /* champagne.jpg */; };
+		C407D0EDCB494A6A81F4BCFC /* prosecco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0553504E719345A096B065DA /* prosecco.jpg */; };
+		9599F627C5BD41FB86841CEC /* sake_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F71CC58125624EEF9FB5BA0E /* sake_portrait.jpg */; };
+		C4BDCD26DC1748EBBFE8DBCE /* vermouth_por.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE17B39EC2574F6CB056AB4E /* vermouth_por.jpg */; };
+		C701BC62A86644C69400C3AC /* sake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B54D3F073AA436AA8555C8E /* sake.jpg */; };
+		6DCF141292374876A782539F /* vermouth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 680CF6132B834D6C8DA35E12 /* vermouth.jpg */; };
+		4E59DFCA6EAB44F4B730638F /* bourbon_portrair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4D0E3FBB1194338873586BE /* bourbon_portrair.jpg */; };
+		45D235266CDC472E9E00821C /* cognac_cask_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF14F1301C504EDE99ED72EA /* cognac_cask_portrait.jpg */; };
+		C8023DBEACB64C62B4A292DA /* cognac_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF6EF83EC08648BDA1360589 /* cognac_portrait.jpg */; };
+		1A7975ECF63B4680854DF542 /* whisky_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEE756A03D3F426DB680D6E1 /* whisky_portrait.jpg */; };
+		B4EE5CBA6CB04BD7A6C5E164 /* bourbon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D4FA4850E624AB69A6AC9D7 /* bourbon.jpg */; };
+		EE2547BE2720456BB4E2A6CA /* cognac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF31CB8AE00C4447BA52E30F /* cognac.jpg */; };
+		15939C8542D5467FAAD94736 /* cognac_cask.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA11D92AE1B54B93942496C4 /* cognac_cask.jpg */; };
+		668DCA02CFD549F496972941 /* whisky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A1EB4FB0AF4432F8E477323 /* whisky.jpg */; };
+		9FCA5AD7FD9C4890A1077B8B /* ruou_can_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3A7AB60830D401380EE032C /* ruou_can_portrait.jpg */; };
+		C67EA39DF48C40719A615D5B /* ruou_dua_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DEE92B273A640CAB68948A4 /* ruou_dua_portrait.jpg */; };
+		1430C9072B404F579F5EDE6D /* ruou_man_mau_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D711387CD5404825A8763E3E /* ruou_man_mau_portrait.jpg */; };
+		79830A834693479EA023C819 /* ruou_mo_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57A7337362ED4A24BFF66118 /* ruou_mo_portrait.jpg */; };
+		4E8A77CF311942629994A105 /* ruou_nep_cap_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEAF0223342441D1ABFB773E /* ruou_nep_cap_portrait.jpg */; };
+		12A4232246D340539C751467 /* ruou_nep_trang_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0A0629CEC854EF4B6EDE311 /* ruou_nep_trang_portrait.jpg */; };
+		D5F4D478B3C946928F679572 /* ruou_ngo_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F0C36F2420A4CC89DDB3E56 /* ruou_ngo_portrait.jpg */; };
+		18915BA42AB34E9BA10675D5 /* ruou_ngo_tim_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B8DFB23725A49A5A26A4B65 /* ruou_ngo_tim_portrait.jpg */; };
+		687B6ED6E87442438ADC97DE /* ruou_tao_meo_portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94F082FA85424E56B57CC834 /* ruou_tao_meo_portrait.jpg */; };
+		D998AA444AAD410B81738DD3 /* ruou_can.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 976B4AD409B7408A82AE1357 /* ruou_can.jpg */; };
+		A6CDEF267F804A7B8BEC5F0F /* ruou_dua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30D12BFD65914314B5095B3A /* ruou_dua.jpg */; };
+		F0ED2399704643849DF02129 /* ruou_man_mau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79110700508A43B6B351A4BC /* ruou_man_mau.jpg */; };
+		86F681A2A6D04B4A81DA7514 /* ruou_mo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46081D1140A34D519BA0D4DE /* ruou_mo.jpg */; };
+		39D4BC6E4BE34C3292C66970 /* ruou_nep_cap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8462D8466FB64B45A2BECF16 /* ruou_nep_cap.jpg */; };
+		23A7F2B8126A4FD2BC636248 /* ruou_nep_trang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A5ABDB4CC5C478C81B2D7BC /* ruou_nep_trang.jpg */; };
+		788C053517744F349A50D6A2 /* ruou_ngo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0378588FE3A44F959C03C7A7 /* ruou_ngo.jpg */; };
+		D1692DCAFCC648E0993D6D1D /* ruou_ngo_tim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74BDAA20A041410B9DB4D0B9 /* ruou_ngo_tim.jpg */; };
+		E73FC33E556F43A897A7281A /* ruou_tao_meo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE56CBBF052F4F3797100CD6 /* ruou_tao_meo.jpg */; };
+		F7A24122765C46ECAF5323C3 /* red_wine_potrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F23C36BF7784669A1976DF2 /* red_wine_potrait.jpg */; };
+		FA98FDB708344DD0979E7D8F /* rose_winw_potrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0AAA8FEA5934B01B41E1B17 /* rose_winw_potrait.jpg */; };
+		B87569EEFFD64251995921E6 /* while_wine_potrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF843960C4C545C0867AD7D2 /* while_wine_potrait.jpg */; };
+		7D47D7E37DF54FFCBCEAC674 /* red_wine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FA7ABF9BF3341EFB920293B /* red_wine.jpg */; };
+		D2D3F30D1F9E43FC9C587CAE /* rose_wine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7F904219F46209FA6699E /* rose_wine.jpg */; };
+		6B72D0310F5C4DA2AA178CA4 /* while_wine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2781A26CC78148BFB334E1F2 /* while_wine.jpg */; };
+		81AEB2A874C54837BD417137 /* amazonpay.png in Resources */ = {isa = PBXBuildFile; fileRef = E14BEA6B28F9432BB5F8C524 /* amazonpay.png */; };
+		E0ED67DB2CBB416EA08CB7BD /* applepay.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2CA951FD0348958A1F5370 /* applepay.png */; };
+		747FE25BED144A8F92C5DAF2 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8532F3DA327C42548BD6A323 /* avatar.png */; };
+		E0A191781FFF4469BBD63272 /* gpay.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A9506EB1074B02AFB3E0A7 /* gpay.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +98,60 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ph30891_CRO101_Assignment/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ph30891_CRO101_Assignment-ph30891_CRO101_AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ph30891_CRO101_Assignment-ph30891_CRO101_AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-ph30891_CRO101_Assignment-ph30891_CRO101_AssignmentTests/Pods-ph30891_CRO101_Assignment-ph30891_CRO101_AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F3A2AB1C5204462A859B7158 /* app_icons.ttf */ = {isa = PBXFileReference; name = "app_icons.ttf"; path = "../src/assets/fonts/app_icons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45C388B03D6B4391BBDDBAB4 /* Poppins-Black.ttf */ = {isa = PBXFileReference; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7629C9BAF45148C88E3D6052 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A35F392F11943CA9D4C9A7C /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14979FEA54D04AC9B550AD77 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDA94741C9B547278071E9B7 /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4BCC7BA88BC947ED99DB0ACD /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC6DD240458B44F498F37D9A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90541A3284F142EAB2A10E22 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D57201D9BC94CC292A8A9F1 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A0FAA6F9EEA4AB1BD9E79FD /* champagne_portrait.jpg */ = {isa = PBXFileReference; name = "champagne_portrait.jpg"; path = "../src/assets/alcohol_assets/champagne/portrait/champagne_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F0F5A5C6A1D4A09B3559E11 /* prosecco_portrait.jpg */ = {isa = PBXFileReference; name = "prosecco_portrait.jpg"; path = "../src/assets/alcohol_assets/champagne/portrait/prosecco_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02564F3BFEDD406BB01FAEC7 /* champagne.jpg */ = {isa = PBXFileReference; name = "champagne.jpg"; path = "../src/assets/alcohol_assets/champagne/square/champagne.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0553504E719345A096B065DA /* prosecco.jpg */ = {isa = PBXFileReference; name = "prosecco.jpg"; path = "../src/assets/alcohol_assets/champagne/square/prosecco.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F71CC58125624EEF9FB5BA0E /* sake_portrait.jpg */ = {isa = PBXFileReference; name = "sake_portrait.jpg"; path = "../src/assets/alcohol_assets/fortifed/portrait/sake_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE17B39EC2574F6CB056AB4E /* vermouth_por.jpg */ = {isa = PBXFileReference; name = "vermouth_por.jpg"; path = "../src/assets/alcohol_assets/fortifed/portrait/vermouth_por.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9B54D3F073AA436AA8555C8E /* sake.jpg */ = {isa = PBXFileReference; name = "sake.jpg"; path = "../src/assets/alcohol_assets/fortifed/square/sake.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		680CF6132B834D6C8DA35E12 /* vermouth.jpg */ = {isa = PBXFileReference; name = "vermouth.jpg"; path = "../src/assets/alcohol_assets/fortifed/square/vermouth.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C4D0E3FBB1194338873586BE /* bourbon_portrair.jpg */ = {isa = PBXFileReference; name = "bourbon_portrair.jpg"; path = "../src/assets/alcohol_assets/spirits/portrait/bourbon_portrair.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF14F1301C504EDE99ED72EA /* cognac_cask_portrait.jpg */ = {isa = PBXFileReference; name = "cognac_cask_portrait.jpg"; path = "../src/assets/alcohol_assets/spirits/portrait/cognac_cask_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF6EF83EC08648BDA1360589 /* cognac_portrait.jpg */ = {isa = PBXFileReference; name = "cognac_portrait.jpg"; path = "../src/assets/alcohol_assets/spirits/portrait/cognac_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CEE756A03D3F426DB680D6E1 /* whisky_portrait.jpg */ = {isa = PBXFileReference; name = "whisky_portrait.jpg"; path = "../src/assets/alcohol_assets/spirits/portrait/whisky_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D4FA4850E624AB69A6AC9D7 /* bourbon.jpg */ = {isa = PBXFileReference; name = "bourbon.jpg"; path = "../src/assets/alcohol_assets/spirits/square/bourbon.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF31CB8AE00C4447BA52E30F /* cognac.jpg */ = {isa = PBXFileReference; name = "cognac.jpg"; path = "../src/assets/alcohol_assets/spirits/square/cognac.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BA11D92AE1B54B93942496C4 /* cognac_cask.jpg */ = {isa = PBXFileReference; name = "cognac_cask.jpg"; path = "../src/assets/alcohol_assets/spirits/square/cognac_cask.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A1EB4FB0AF4432F8E477323 /* whisky.jpg */ = {isa = PBXFileReference; name = "whisky.jpg"; path = "../src/assets/alcohol_assets/spirits/square/whisky.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3A7AB60830D401380EE032C /* ruou_can_portrait.jpg */ = {isa = PBXFileReference; name = "ruou_can_portrait.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_can_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3DEE92B273A640CAB68948A4 /* ruou_dua_portrait.jpg */ = {isa = PBXFileReference; name = "ruou_dua_portrait.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_dua_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D711387CD5404825A8763E3E /* ruou_man_mau_portrait.jpg */ = {isa = PBXFileReference; name = "ruou_man_mau_portrait.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_man_mau_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57A7337362ED4A24BFF66118 /* ruou_mo_portrait.jpg */ = {isa = PBXFileReference; name = "ruou_mo_portrait.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_mo_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEAF0223342441D1ABFB773E /* ruou_nep_cap_portrait.jpg */ = {isa = PBXFileReference; name = "ruou_nep_cap_portrait.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_nep_cap_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0A0629CEC854EF4B6EDE311 /* ruou_nep_trang_portrait.jpg */ = {isa = PBXFileReference; name = "ruou_nep_trang_portrait.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_nep_trang_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F0C36F2420A4CC89DDB3E56 /* ruou_ngo_portrait.jpg */ = {isa = PBXFileReference; name = "ruou_ngo_portrait.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_ngo_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B8DFB23725A49A5A26A4B65 /* ruou_ngo_tim_portrait.jpg */ = {isa = PBXFileReference; name = "ruou_ngo_tim_portrait.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_ngo_tim_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		94F082FA85424E56B57CC834 /* ruou_tao_meo_portrait.jpg */ = {isa = PBXFileReference; name = "ruou_tao_meo_portrait.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_tao_meo_portrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		976B4AD409B7408A82AE1357 /* ruou_can.jpg */ = {isa = PBXFileReference; name = "ruou_can.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/square/ruou_can.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		30D12BFD65914314B5095B3A /* ruou_dua.jpg */ = {isa = PBXFileReference; name = "ruou_dua.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/square/ruou_dua.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79110700508A43B6B351A4BC /* ruou_man_mau.jpg */ = {isa = PBXFileReference; name = "ruou_man_mau.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/square/ruou_man_mau.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		46081D1140A34D519BA0D4DE /* ruou_mo.jpg */ = {isa = PBXFileReference; name = "ruou_mo.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/square/ruou_mo.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8462D8466FB64B45A2BECF16 /* ruou_nep_cap.jpg */ = {isa = PBXFileReference; name = "ruou_nep_cap.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/square/ruou_nep_cap.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A5ABDB4CC5C478C81B2D7BC /* ruou_nep_trang.jpg */ = {isa = PBXFileReference; name = "ruou_nep_trang.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/square/ruou_nep_trang.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0378588FE3A44F959C03C7A7 /* ruou_ngo.jpg */ = {isa = PBXFileReference; name = "ruou_ngo.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/square/ruou_ngo.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		74BDAA20A041410B9DB4D0B9 /* ruou_ngo_tim.jpg */ = {isa = PBXFileReference; name = "ruou_ngo_tim.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/square/ruou_ngo_tim.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE56CBBF052F4F3797100CD6 /* ruou_tao_meo.jpg */ = {isa = PBXFileReference; name = "ruou_tao_meo.jpg"; path = "../src/assets/alcohol_assets/vietnamese_liquor/square/ruou_tao_meo.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F23C36BF7784669A1976DF2 /* red_wine_potrait.jpg */ = {isa = PBXFileReference; name = "red_wine_potrait.jpg"; path = "../src/assets/alcohol_assets/wine/portrait/red_wine_potrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0AAA8FEA5934B01B41E1B17 /* rose_winw_potrait.jpg */ = {isa = PBXFileReference; name = "rose_winw_potrait.jpg"; path = "../src/assets/alcohol_assets/wine/portrait/rose_winw_potrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AF843960C4C545C0867AD7D2 /* while_wine_potrait.jpg */ = {isa = PBXFileReference; name = "while_wine_potrait.jpg"; path = "../src/assets/alcohol_assets/wine/portrait/while_wine_potrait.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3FA7ABF9BF3341EFB920293B /* red_wine.jpg */ = {isa = PBXFileReference; name = "red_wine.jpg"; path = "../src/assets/alcohol_assets/wine/square/red_wine.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9DA7F904219F46209FA6699E /* rose_wine.jpg */ = {isa = PBXFileReference; name = "rose_wine.jpg"; path = "../src/assets/alcohol_assets/wine/square/rose_wine.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2781A26CC78148BFB334E1F2 /* while_wine.jpg */ = {isa = PBXFileReference; name = "while_wine.jpg"; path = "../src/assets/alcohol_assets/wine/square/while_wine.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E14BEA6B28F9432BB5F8C524 /* amazonpay.png */ = {isa = PBXFileReference; name = "amazonpay.png"; path = "../src/assets/app_images/amazonpay.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D2CA951FD0348958A1F5370 /* applepay.png */ = {isa = PBXFileReference; name = "applepay.png"; path = "../src/assets/app_images/applepay.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8532F3DA327C42548BD6A323 /* avatar.png */ = {isa = PBXFileReference; name = "avatar.png"; path = "../src/assets/app_images/avatar.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C5A9506EB1074B02AFB3E0A7 /* gpay.png */ = {isa = PBXFileReference; name = "gpay.png"; path = "../src/assets/app_images/gpay.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +230,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				DA425D311EB146F9BF265F74 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +256,68 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		DA425D311EB146F9BF265F74 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				F3A2AB1C5204462A859B7158 /* app_icons.ttf */,
+				45C388B03D6B4391BBDDBAB4 /* Poppins-Black.ttf */,
+				7629C9BAF45148C88E3D6052 /* Poppins-Bold.ttf */,
+				0A35F392F11943CA9D4C9A7C /* Poppins-ExtraBold.ttf */,
+				14979FEA54D04AC9B550AD77 /* Poppins-ExtraLight.ttf */,
+				DDA94741C9B547278071E9B7 /* Poppins-Light.ttf */,
+				4BCC7BA88BC947ED99DB0ACD /* Poppins-Medium.ttf */,
+				AC6DD240458B44F498F37D9A /* Poppins-Regular.ttf */,
+				90541A3284F142EAB2A10E22 /* Poppins-SemiBold.ttf */,
+				5D57201D9BC94CC292A8A9F1 /* Poppins-Thin.ttf */,
+				1A0FAA6F9EEA4AB1BD9E79FD /* champagne_portrait.jpg */,
+				7F0F5A5C6A1D4A09B3559E11 /* prosecco_portrait.jpg */,
+				02564F3BFEDD406BB01FAEC7 /* champagne.jpg */,
+				0553504E719345A096B065DA /* prosecco.jpg */,
+				F71CC58125624EEF9FB5BA0E /* sake_portrait.jpg */,
+				AE17B39EC2574F6CB056AB4E /* vermouth_por.jpg */,
+				9B54D3F073AA436AA8555C8E /* sake.jpg */,
+				680CF6132B834D6C8DA35E12 /* vermouth.jpg */,
+				C4D0E3FBB1194338873586BE /* bourbon_portrair.jpg */,
+				DF14F1301C504EDE99ED72EA /* cognac_cask_portrait.jpg */,
+				AF6EF83EC08648BDA1360589 /* cognac_portrait.jpg */,
+				CEE756A03D3F426DB680D6E1 /* whisky_portrait.jpg */,
+				2D4FA4850E624AB69A6AC9D7 /* bourbon.jpg */,
+				DF31CB8AE00C4447BA52E30F /* cognac.jpg */,
+				BA11D92AE1B54B93942496C4 /* cognac_cask.jpg */,
+				5A1EB4FB0AF4432F8E477323 /* whisky.jpg */,
+				D3A7AB60830D401380EE032C /* ruou_can_portrait.jpg */,
+				3DEE92B273A640CAB68948A4 /* ruou_dua_portrait.jpg */,
+				D711387CD5404825A8763E3E /* ruou_man_mau_portrait.jpg */,
+				57A7337362ED4A24BFF66118 /* ruou_mo_portrait.jpg */,
+				BEAF0223342441D1ABFB773E /* ruou_nep_cap_portrait.jpg */,
+				C0A0629CEC854EF4B6EDE311 /* ruou_nep_trang_portrait.jpg */,
+				3F0C36F2420A4CC89DDB3E56 /* ruou_ngo_portrait.jpg */,
+				6B8DFB23725A49A5A26A4B65 /* ruou_ngo_tim_portrait.jpg */,
+				94F082FA85424E56B57CC834 /* ruou_tao_meo_portrait.jpg */,
+				976B4AD409B7408A82AE1357 /* ruou_can.jpg */,
+				30D12BFD65914314B5095B3A /* ruou_dua.jpg */,
+				79110700508A43B6B351A4BC /* ruou_man_mau.jpg */,
+				46081D1140A34D519BA0D4DE /* ruou_mo.jpg */,
+				8462D8466FB64B45A2BECF16 /* ruou_nep_cap.jpg */,
+				4A5ABDB4CC5C478C81B2D7BC /* ruou_nep_trang.jpg */,
+				0378588FE3A44F959C03C7A7 /* ruou_ngo.jpg */,
+				74BDAA20A041410B9DB4D0B9 /* ruou_ngo_tim.jpg */,
+				BE56CBBF052F4F3797100CD6 /* ruou_tao_meo.jpg */,
+				9F23C36BF7784669A1976DF2 /* red_wine_potrait.jpg */,
+				C0AAA8FEA5934B01B41E1B17 /* rose_winw_potrait.jpg */,
+				AF843960C4C545C0867AD7D2 /* while_wine_potrait.jpg */,
+				3FA7ABF9BF3341EFB920293B /* red_wine.jpg */,
+				9DA7F904219F46209FA6699E /* rose_wine.jpg */,
+				2781A26CC78148BFB334E1F2 /* while_wine.jpg */,
+				E14BEA6B28F9432BB5F8C524 /* amazonpay.png */,
+				8D2CA951FD0348958A1F5370 /* applepay.png */,
+				8532F3DA327C42548BD6A323 /* avatar.png */,
+				C5A9506EB1074B02AFB3E0A7 /* gpay.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +414,60 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1707382A0F0640C787A01785 /* app_icons.ttf in Resources */,
+				A101CCE7413F48E588B78262 /* Poppins-Black.ttf in Resources */,
+				0D78BEB4B23C4CA7BBCA3713 /* Poppins-Bold.ttf in Resources */,
+				DB4036873E9B43A09E68B5EC /* Poppins-ExtraBold.ttf in Resources */,
+				A7C18E3F983D42C5AF079E0C /* Poppins-ExtraLight.ttf in Resources */,
+				090E7A348BC3495691C02D96 /* Poppins-Light.ttf in Resources */,
+				FD47016D217F4445A7F312CA /* Poppins-Medium.ttf in Resources */,
+				CF2342963C984E6FB723032C /* Poppins-Regular.ttf in Resources */,
+				6771CBA61C114FE39067F232 /* Poppins-SemiBold.ttf in Resources */,
+				FB8001D9F00E45FAA75361D7 /* Poppins-Thin.ttf in Resources */,
+				6CE30CC6C4DE4ECFAA869426 /* champagne_portrait.jpg in Resources */,
+				5B418F44BB7C4284A8E32F5A /* prosecco_portrait.jpg in Resources */,
+				9B6591A393224B2C86774E08 /* champagne.jpg in Resources */,
+				C407D0EDCB494A6A81F4BCFC /* prosecco.jpg in Resources */,
+				9599F627C5BD41FB86841CEC /* sake_portrait.jpg in Resources */,
+				C4BDCD26DC1748EBBFE8DBCE /* vermouth_por.jpg in Resources */,
+				C701BC62A86644C69400C3AC /* sake.jpg in Resources */,
+				6DCF141292374876A782539F /* vermouth.jpg in Resources */,
+				4E59DFCA6EAB44F4B730638F /* bourbon_portrair.jpg in Resources */,
+				45D235266CDC472E9E00821C /* cognac_cask_portrait.jpg in Resources */,
+				C8023DBEACB64C62B4A292DA /* cognac_portrait.jpg in Resources */,
+				1A7975ECF63B4680854DF542 /* whisky_portrait.jpg in Resources */,
+				B4EE5CBA6CB04BD7A6C5E164 /* bourbon.jpg in Resources */,
+				EE2547BE2720456BB4E2A6CA /* cognac.jpg in Resources */,
+				15939C8542D5467FAAD94736 /* cognac_cask.jpg in Resources */,
+				668DCA02CFD549F496972941 /* whisky.jpg in Resources */,
+				9FCA5AD7FD9C4890A1077B8B /* ruou_can_portrait.jpg in Resources */,
+				C67EA39DF48C40719A615D5B /* ruou_dua_portrait.jpg in Resources */,
+				1430C9072B404F579F5EDE6D /* ruou_man_mau_portrait.jpg in Resources */,
+				79830A834693479EA023C819 /* ruou_mo_portrait.jpg in Resources */,
+				4E8A77CF311942629994A105 /* ruou_nep_cap_portrait.jpg in Resources */,
+				12A4232246D340539C751467 /* ruou_nep_trang_portrait.jpg in Resources */,
+				D5F4D478B3C946928F679572 /* ruou_ngo_portrait.jpg in Resources */,
+				18915BA42AB34E9BA10675D5 /* ruou_ngo_tim_portrait.jpg in Resources */,
+				687B6ED6E87442438ADC97DE /* ruou_tao_meo_portrait.jpg in Resources */,
+				D998AA444AAD410B81738DD3 /* ruou_can.jpg in Resources */,
+				A6CDEF267F804A7B8BEC5F0F /* ruou_dua.jpg in Resources */,
+				F0ED2399704643849DF02129 /* ruou_man_mau.jpg in Resources */,
+				86F681A2A6D04B4A81DA7514 /* ruou_mo.jpg in Resources */,
+				39D4BC6E4BE34C3292C66970 /* ruou_nep_cap.jpg in Resources */,
+				23A7F2B8126A4FD2BC636248 /* ruou_nep_trang.jpg in Resources */,
+				788C053517744F349A50D6A2 /* ruou_ngo.jpg in Resources */,
+				D1692DCAFCC648E0993D6D1D /* ruou_ngo_tim.jpg in Resources */,
+				E73FC33E556F43A897A7281A /* ruou_tao_meo.jpg in Resources */,
+				F7A24122765C46ECAF5323C3 /* red_wine_potrait.jpg in Resources */,
+				FA98FDB708344DD0979E7D8F /* rose_winw_potrait.jpg in Resources */,
+				B87569EEFFD64251995921E6 /* while_wine_potrait.jpg in Resources */,
+				7D47D7E37DF54FFCBCEAC674 /* red_wine.jpg in Resources */,
+				D2D3F30D1F9E43FC9C587CAE /* rose_wine.jpg in Resources */,
+				6B72D0310F5C4DA2AA178CA4 /* while_wine.jpg in Resources */,
+				81AEB2A874C54837BD417137 /* amazonpay.png in Resources */,
+				E0ED67DB2CBB416EA08CB7BD /* applepay.png in Resources */,
+				747FE25BED144A8F92C5DAF2 /* avatar.png in Resources */,
+				E0A191781FFF4469BBD63272 /* gpay.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

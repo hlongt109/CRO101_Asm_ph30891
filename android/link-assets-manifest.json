@@ -1,0 +1,221 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/alcohol_assets/champagne/portrait/champagne_portrait.jpg",
+      "sha1": "a6ea6897475a7e3353b1f5d4e8407879536e3062"
+    },
+    {
+      "path": "src/assets/alcohol_assets/champagne/portrait/prosecco_portrait.jpg",
+      "sha1": "fcb0259eb259e9495d09c2950dd5bddd7d2d72e0"
+    },
+    {
+      "path": "src/assets/alcohol_assets/champagne/square/champagne.jpg",
+      "sha1": "d37167ed1dfb5ce26bd4ded05509d77174fe5700"
+    },
+    {
+      "path": "src/assets/alcohol_assets/champagne/square/prosecco.jpg",
+      "sha1": "717af0c61cc7248238b2161e270e209eb33e6cf9"
+    },
+    {
+      "path": "src/assets/alcohol_assets/fortifed/portrait/sake_portrait.jpg",
+      "sha1": "7207f8d6a8fc781409baa039cc3780f77a7b96ae"
+    },
+    {
+      "path": "src/assets/alcohol_assets/fortifed/portrait/vermouth_por.jpg",
+      "sha1": "cfc624c6d137b51e8ff8e5c618a14bcbbef17199"
+    },
+    {
+      "path": "src/assets/alcohol_assets/fortifed/square/sake.jpg",
+      "sha1": "a6e90fbdcdf4c571d63e37d42441f4f42c9304e6"
+    },
+    {
+      "path": "src/assets/alcohol_assets/fortifed/square/vermouth.jpg",
+      "sha1": "c49e5d4622a8857817a61d8283482d589650ca7c"
+    },
+    {
+      "path": "src/assets/alcohol_assets/spirits/portrait/bourbon_portrair.jpg",
+      "sha1": "1364361a099341bcab94f388e54099ed6a4c91ed"
+    },
+    {
+      "path": "src/assets/alcohol_assets/spirits/portrait/cognac_cask_portrait.jpg",
+      "sha1": "5eaae707b3f84cfde1cfedf50b2526bea0b2b63e"
+    },
+    {
+      "path": "src/assets/alcohol_assets/spirits/portrait/cognac_portrait.jpg",
+      "sha1": "928a27655081fd068dddfcc10fbfcbf9d7b08d67"
+    },
+    {
+      "path": "src/assets/alcohol_assets/spirits/portrait/whisky_portrait.jpg",
+      "sha1": "0a5770c2094b479522973a2b5be0277ec90990b1"
+    },
+    {
+      "path": "src/assets/alcohol_assets/spirits/square/bourbon.jpg",
+      "sha1": "a9808a0949d9e717987adeb0b42fe31ca61efb38"
+    },
+    {
+      "path": "src/assets/alcohol_assets/spirits/square/cognac.jpg",
+      "sha1": "cb85a8c49b372c2b09ce3afeb30a5d206cd6a737"
+    },
+    {
+      "path": "src/assets/alcohol_assets/spirits/square/cognac_cask.jpg",
+      "sha1": "0ae7555b70b0b99972b1df270b90a74d2a204858"
+    },
+    {
+      "path": "src/assets/alcohol_assets/spirits/square/whisky.jpg",
+      "sha1": "b4ab5d98a283dab2b240029a979a00ec3cc9e8a5"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_can_portrait.jpg",
+      "sha1": "88c6f519c53e770d2c6c3f1660b15f9da95fab9c"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_dua_portrait.jpg",
+      "sha1": "40e6b4aac2ae9afc6596f47414d1917e2512195a"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_man_mau_portrait.jpg",
+      "sha1": "0c20cd4012244d5d56c25396b72704eaa29027d2"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_mo_portrait.jpg",
+      "sha1": "048e38d81fb3652f8e544468eedf8b3dee239c63"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_nep_cap_portrait.jpg",
+      "sha1": "96b92060de5c15883683c6b69369521c5856b6bc"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_nep_trang_portrait.jpg",
+      "sha1": "19c9040eff8505754f55e601169b81dd2cbb2c39"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_ngo_portrait.jpg",
+      "sha1": "b7b0d8c1e187eaf71aa4fe0019c2e74fd330fadc"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_ngo_tim_portrait.jpg",
+      "sha1": "0935571bcd828d07fc242c3a68c9a17e26b5a92a"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/portrait/ruou_tao_meo_portrait.jpg",
+      "sha1": "9752e5469aee9a3d337076edf16170f24385a077"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/square/ruou_can.jpg",
+      "sha1": "6b131a2ef3de87879b467847b4e9b00a4fe6b413"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/square/ruou_dua.jpg",
+      "sha1": "eed7fb1021302aa17b232d809e8b41e97a5612bf"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/square/ruou_man_mau.jpg",
+      "sha1": "6c70884f1955263d67749b211cfb45906427e07a"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/square/ruou_mo.jpg",
+      "sha1": "36744fc61d134181afb38639acdf6b0f59d2e552"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/square/ruou_nep_cap.jpg",
+      "sha1": "e1c4b35f8157620f8fee3608b7ca0d196fb8a6c1"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/square/ruou_nep_trang.jpg",
+      "sha1": "16cddd4886d5a8c483e84df7c07f98997ff5cd26"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/square/ruou_ngo.jpg",
+      "sha1": "e06c7ce54dd93b7111fdbf1e2a6b380093b60a8e"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/square/ruou_ngo_tim.jpg",
+      "sha1": "c3e1db441fca549be66de6ab568389889d686680"
+    },
+    {
+      "path": "src/assets/alcohol_assets/vietnamese_liquor/square/ruou_tao_meo.jpg",
+      "sha1": "67a49edacfeb4ec9543b40fff63720e79d3a732b"
+    },
+    {
+      "path": "src/assets/alcohol_assets/wine/portrait/red_wine_potrait.jpg",
+      "sha1": "deda0941b34ef46d8f332f4c1a0b29370caf955a"
+    },
+    {
+      "path": "src/assets/alcohol_assets/wine/portrait/rose_winw_potrait.jpg",
+      "sha1": "1313c014d40e1a4bff6281d2bdbf5ce8b200902c"
+    },
+    {
+      "path": "src/assets/alcohol_assets/wine/portrait/while_wine_potrait.jpg",
+      "sha1": "a63901c3102b9a4a9799c859e3a7f9dd2fdde6b1"
+    },
+    {
+      "path": "src/assets/alcohol_assets/wine/square/red_wine.jpg",
+      "sha1": "da382132f02359a7171307d470d66cb14edfd0c8"
+    },
+    {
+      "path": "src/assets/alcohol_assets/wine/square/rose_wine.jpg",
+      "sha1": "6e8a8ca4fad0118961186a9f1088213c3b2f5109"
+    },
+    {
+      "path": "src/assets/alcohol_assets/wine/square/while_wine.jpg",
+      "sha1": "012a2eebeeb46a74ddced85664e6a93f038953c7"
+    },
+    {
+      "path": "src/assets/app_images/amazonpay.png",
+      "sha1": "4ec7050dda251f228cb2b9a5220cc986099dd3c7"
+    },
+    {
+      "path": "src/assets/app_images/applepay.png",
+      "sha1": "0b06e72fa97134cda893f1688ab8852fef316f1f"
+    },
+    {
+      "path": "src/assets/app_images/avatar.png",
+      "sha1": "3455b9a804fed85c996001bfbcc73e6034bdf528"
+    },
+    {
+      "path": "src/assets/app_images/gpay.png",
+      "sha1": "039fbff59306d5e4300ef7614d796844345575af"
+    },
+    {
+      "path": "src/assets/fonts/app_icons.ttf",
+      "sha1": "18e5fe2f93c853bbb495975f04df56438d595de5"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Black.ttf",
+      "sha1": "645e04c53c6b5b35bce654a811ebce16af8aa721"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "4b5c0750f073abd576413a0898d3b95adaf199c8"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "85af6582a7e6155917c605f9d3fed68c02b23b06"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "09ba4dcd5509c8085bf88c665dcc51cbdfced27b"
+    }
+  ]
+}

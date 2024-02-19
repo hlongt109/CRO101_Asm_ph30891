@@ -18,7 +18,7 @@ const SplashScreen = () => {
       if (isLoggedIn === 'true') {
         setTimeout(() => {
           navigation.navigate('Tab');
-        }, 2000)
+        }, 1000)
       }
     } catch (error) {
       console.error('Error:', error.message);

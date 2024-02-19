@@ -33,6 +33,8 @@ const HomeScreen = () => {
   const [priceAccordingSize, setPriceAccordingSize] = useState(0);
   const [multipleSizes, setMultipleSizes] = useState(null);
 
+  const [searchText, setSearchText] = useState('');
+
   // get User id
   const getUserId = async () => {
     try {
@@ -110,6 +112,15 @@ const HomeScreen = () => {
       ToastAndroid.show("Error", ToastAndroid.SHORT);
     }
   }
+  // Search
+  const handleSearch = (text) => {
+    setSearchText(text);
+  }
+  const filteredData = dataFromServer
+    .filter(coffee =>
+      (searchText === '' || coffee.name.toLowerCase().includes(searchText.toLowerCase()))
+    );
+
   return (
 
     <SafeAreaView style={st.ScreenContainer}>
@@ -185,7 +196,7 @@ const HomeScreen = () => {
         </View>
 
         <View style={{ marginHorizontal: 10 }}>
-          <SearchView />
+          <SearchView onSearch={handleSearch} />
           <Categories onChange={(id) => setActiveCategoryId(id)} />
         </View>
 
@@ -201,8 +212,7 @@ const HomeScreen = () => {
               justifyContent: 'space-between',
               overflow: 'hidden'
             }}>
-            {dataFromServer
-              .filter(coffee => activeCategoryId === null || coffee.categoryId === activeCategoryId || activeCategoryId === 0)
+            {filteredData
               .map((coffee) => (
                 <TouchableOpacity key={coffee.id}
                   style={{
@@ -439,7 +449,7 @@ const st = StyleSheet.create({
     paddingHorizontal: 10,
     paddingVertical: 7,
     borderRadius: 10,
-    alignItems:'center',
+    alignItems: 'center',
     marginLeft: 15
   },
   cancelButton: {

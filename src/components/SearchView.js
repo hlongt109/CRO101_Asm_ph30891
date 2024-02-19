@@ -5,7 +5,7 @@ import colors from '../config/colors'
 import SPACING from '../config/SPACING'
 import COLORS from '../constrain/colors'
 
-const SearchView = () => {
+const SearchView = ({ onSearch }) => {
     return (
         <View
             style={{
@@ -30,15 +30,8 @@ const SearchView = () => {
                         paddingLeft: SPACING * 3.5,
                     }}
                     placeholder='Find your coffee...'
-                    placeholderTextColor={colors.white} />
-                {/* <Ionicons
-                    style={{
-                        position: 'absolute',
-                        left: SPACING
-                    }}
-                    name="search"
-                    color={colors.light}
-                    size={SPACING * 2} /> */}
+                    placeholderTextColor={colors.white} 
+                    onChangeText={(text) => onSearch(text)}/>
             </BlurView>
         </View>
     )

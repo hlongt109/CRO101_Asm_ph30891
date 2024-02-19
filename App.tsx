@@ -38,7 +38,7 @@ const App = () => {
         <Stack.Screen name='ProfileDetails' component={ProfileDetails} options={{animation: 'slide_from_right', headerShown: false}}/>
         <Stack.Screen name='OrderHistory' component={OrderHistory} options={{animation: 'slide_from_right', headerShown: false}}/>
         <Stack.Screen name='About' component={About} options={{animation: 'slide_from_right', headerShown: false}}/>
-        <Stack.Screen name='Pay' component={Payment} options={{animation: 'slide_from_right', headerShown: false}}/>
+        <Stack.Screen name='Pay' component={PaymentScreen} options={{animation: 'slide_from_right', headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   )

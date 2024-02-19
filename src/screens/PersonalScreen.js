@@ -94,7 +94,7 @@ const Personal = () => {
         <TouchableRipple onPress={() => navigation.navigate("ProfileDetails")}>
           <View style={st.menuItem}>
             <View style={{ flexDirection: 'row', }}>
-              <Ionicon name='person-circle-outline' color={colors.gray} size={25} />
+              <Ionicon name='person-circle-outline' color={COLORS.gray} size={25} />
               <Text style={st.menuItemText}>Personal Details</Text>
             </View>
             <View>

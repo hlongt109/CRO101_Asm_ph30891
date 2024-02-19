@@ -38,7 +38,7 @@ const CartScreen = () => {
       console.error('Error fetching data:', error.message);
     }
   }
- 
+
   // get userId
   const getUserId = async () => {
     try {
@@ -120,9 +120,6 @@ const CartScreen = () => {
 
     setProductId(coffee.id);
   }
-  // const dataCart = carts;
-  // console.log(dataCart);
-
   return (
     <>
       <SafeAreaView style={st.container}>
@@ -207,7 +204,10 @@ const CartScreen = () => {
           </View>
         </View>
         <TouchableOpacity
-          onPress={() => navigation.navigate('Pay', {cartData: carts})}
+          onPress={() => {
+            const total = calculateTotalPrice();
+            navigation.navigate("Pay", { carts,total})
+          }}
           style={st.btnPay}>
           <Text style={{ color: colors.white, fontSize: SPACING * 2, fontWeight: '700' }}>Pay</Text>
         </TouchableOpacity>

@@ -92,7 +92,7 @@ const LoginScreen = () => {
                 placeholder='Enter your email address'
                 placeholderTextColor={COLORS.gray}
                 keyboardType='email-address'
-                style={{ width: '100%' }}
+                style={{ width: '100%', color: COLORS.gray, fontSize: 16, paddingHorizontal: 20 }}
                 value={email}
                 onChangeText={(txt) => {
                   setEmail(txt)
@@ -110,7 +110,7 @@ const LoginScreen = () => {
                 placeholder='Enter your password'
                 placeholderTextColor={COLORS.gray}
                 secureTextEntry={hidenPass}
-                style={{ width: '100%' }}
+                style={{ width: '100%', color: COLORS.gray, fontSize: 16, paddingHorizontal: 20 }}
                 value={password}
                 onChangeText={(txt) => {
                   setPassword(txt)

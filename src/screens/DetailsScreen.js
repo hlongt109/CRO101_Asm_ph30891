@@ -1,4 +1,4 @@
-import { Dimensions, ImageBackground, ScrollView, StyleSheet, Text, ToastAndroid, TouchableOpacity, View } from 'react-native'
+import { Dimensions, ImageBackground, ScrollView, StyleSheet, Text, TextInput, ToastAndroid, TouchableOpacity, View } from 'react-native'
 import React, { useState } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import Ionicons from 'react-native-vector-icons/Ionicons'
@@ -12,19 +12,17 @@ const { height, width } = Dimensions.get("window")
 
 const DetailsScreen = ({ route }) => {
   const { coffee } = route.params  /**route.params là một đối tượng chứa tất cả các thông số được truyền từ màn hình trước đó */
-  const size = ["S", "M", "L"]
+  const size = coffee.sizes
   const [activeSize, setActiveSize] = useState(null);
+  const [selectedSizePrice, setSelectedSizePrice] = useState(null);
+  const [quantity, setQuantity] = useState(1);
   const navigation = useNavigation();
-
-  // console.log(coffee.id);
-  // console.log(coffee.name);
-  // console.log(coffee.image);
-  // console.log(coffee.price);
-  // console.log(coffee.description);
-  // console.log(coffee.categoryId);
-  // console.log(coffee.rating);
-  // console.log(coffee.included);
-  // console.log(coffee.sizes);
+  
+  // console.log(coffee);
+  // console.log(activeSize);
+  // console.log(selectedSizePrice);
+  // console.log(quantity);
+  // console.log(total);
 
   // get User id
   const getUserId = async () => {
@@ -58,7 +56,20 @@ const DetailsScreen = ({ route }) => {
       ToastAndroid.show("Error", ToastAndroid.SHORT);
     }
   }
-
+  // total price
+  const calculateTotal = () => {
+    return parseInt(quantity) * selectedSizePrice;
+  }
+  // to payment
+  const toPayment = () =>{
+    if(activeSize === null){
+      ToastAndroid.show("Chưa chọn size",ToastAndroid.SHORT);
+    }else{
+      const total = calculateTotal();
+      navigation.navigate("Pay",{coffee,activeSize,selectedSizePrice,quantity,total})
+    }
+  }
+  
   return (
     <>
       <ScrollView
@@ -210,10 +221,13 @@ const DetailsScreen = ({ route }) => {
                 style={{
                   flexDirection: 'row', justifyContent: 'space-between'
                 }}>
-                {size.map((size, index) => (
+                {size.map((size) => (
                   <TouchableOpacity
-                    onPress={() => setActiveSize(size)}
-                    key={index}
+                    onPress={() => {
+                      setSelectedSizePrice(size.price);
+                      setActiveSize(size);
+                    }}
+                    key={size.name}
                     style={[{
                       borderWidth: 2,
                       paddingVertical: SPACING / 2,
@@ -235,10 +249,22 @@ const DetailsScreen = ({ route }) => {
                       activeSize === size && {
                         color: COLORS.pinkSecond
                       }
-                      ]}>{size}
+                      ]}>{size.name}
                     </Text>
                   </TouchableOpacity>
                 ))}
+              </View>
+            </View>
+            <View style={{ width: '100%', flexDirection: 'column' }}>
+              <Text style={{ color: COLORS.gray, fontSize: SPACING * 1.7, marginBottom: SPACING }}>Quantity</Text>
+              <View style={{ width: '100%', borderWidth: 2, borderColor: COLORS.gray, borderRadius: 10 }}>
+                <TextInput
+                  value={quantity.toString()}
+                  onChangeText={(txt) => {
+                    setQuantity(txt)
+                  }}
+                  style={{ textAlign: 'center', color: COLORS.gray, fontSize: 20 }}
+                />
               </View>
             </View>
           </View>
@@ -265,10 +291,11 @@ const DetailsScreen = ({ route }) => {
                 fontSize: SPACING * 1.7,
                 marginLeft: SPACING / 2,
                 fontWeight: '600'
-              }}>{coffee.price}</Text>
+              }}>{selectedSizePrice === null ? coffee.price : `${calculateTotal()}`}</Text>
           </View>
         </View>
         <TouchableOpacity
+        onPress={toPayment}
           style={{
             marginRight: SPACING,
             backgroundColor: colors.primary,
@@ -276,7 +303,6 @@ const DetailsScreen = ({ route }) => {
             justifyContent: 'center',
             alignItems: 'center',
             borderRadius: SPACING * 2,
-
           }}>
           <Text style={{ color: colors.white, fontSize: SPACING * 2, fontWeight: '700' }}>Buy Now</Text>
         </TouchableOpacity>
